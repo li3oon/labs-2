@@ -1,0 +1,114 @@
+body{
+    margin:0;
+    background: linear-gradient(222deg, #00ffa6 5%, #75ecec 50%, #73e9ec 50.97%, #60cff0 60.43%, #0f63ff 100%);
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
+b{
+    color: #F0DB98;
+    font-weight: 608;
+}
+.container{
+    margin: 0px 0px;
+}
+.header{
+    background-image: url(шарики.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.header-logo{
+    height: 92;
+    width: 109;
+    padding-left: 11px;
+}
+.header-line{
+    padding-top: 32px;
+    padding-left: 61px;
+    display: flex;
+    align-items: center;
+    color: #3846EA;
+    font-size: 36pt;
+}
+.nav{
+    left: 771px;
+    position: absolute;
+}
+.nav-item{
+    color: white;
+    text-decoration: none;
+    font-size: 24pt;
+    margin-left: 37px;
+}
+.nav-item:hover{
+    color: #F0DB98;
+}
+.header-down{
+    position: relative;
+}
+.header-title{
+    color: white;
+    text-decoration: none;
+    font-size: 36pt;
+    text-align: left;
+    position: absolute;
+}
+.p1{
+    padding-top: 132px;
+    padding-left: 70px;
+}
+.p2{
+    padding-top: 95px;
+    padding-left: 179px;
+}
+.p3{
+    padding-top: 85px;
+    padding-left: 137px;
+}
+.footer{
+    color:white;
+    background-color: #393939;
+    padding-top: 40px;
+    width: 100%;
+    height: 213;
+}
+.k{
+    padding-top: 39px;
+    font-size: 24pt;
+}
+.contacts{
+    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-size: 24pt;
+}
+.tt{
+    
+    display: flex;
+    align-items: center;
+    margin-right: 43px;
+}
+.n{
+    color: white;
+    text-decoration: none;
+}
+.n:hover{
+    color: #F0DB98;
+}
+ul.spi{
+    margin: 0;
+    padding: 0;
+}
+.spi li{
+    list-style: none;
+    list-style-image: url(9.png); 
+    list-style-position: outside;
+    text-indent: -25pt;
+    padding: 0;
+}
