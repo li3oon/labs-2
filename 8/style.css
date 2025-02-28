@@ -103,7 +103,7 @@ b{
 .footer2{
     color:white;
     background-color: #393939;
-    margin-top: 511px;
+    margin-top: 111px;
     width: 100%;
     height: 213px;
 }
@@ -168,12 +168,22 @@ table{
     cursor: pointer;
     z-index: 1000;
 }
-video{
+.vd{
+    /*position: relative;
     margin-top: 50px;
-    border-radius: 10px;
-    border: 4px solid rgb(240, 248, 255, 0.5);
-    width: 500px;
-    height: 310px;
+    right: -1160px;*/
+    position: relative;
+    width: 520px;
+    height: 320px;
+    right: -1160px;
+    margin-top: 47px;
+    background-color: rgb(57, 57, 57, 0.5);
+    border-radius: 30px;
+    
+}
+video{
+    border-radius: 30px;
+    /*border: 20px solid rgb(57, 57, 57, 0.5);*/
 }
 p{
     color: white;
@@ -185,6 +195,17 @@ p{
 audio{
     right: 180px;
     top: 290px;
+    width: 500px;
+}
+.o{
     position: absolute;
     width: 500px;
+    height: 80px;
+    right: 180px;
+    top: 290px;
+    background-color: rgb(57, 57, 57, 0.5);
+    border-radius: 100px;
+}
+.r4{
+    padding-top: 20px;
 }
